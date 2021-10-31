@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_30sdp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/text_insert"
+        android:id="@+id/edInput"
+        android:inputType="text"
+        android:textColor="#222"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="@string/text_translate"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/_13sdp"
+        android:background="#4F68F3"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btnTranslate"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_eng"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="#222"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEng"
+        android:textColor="#222"
+        android:textSize="@dimen/_12sdp"/>
+    <TextView
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_vn"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="#222"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvVn"
+        android:textColor="#222"
+        android:textSize="@dimen/_12sdp"/>
+
+    </LinearLayout>
+
+</layout>

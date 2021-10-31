@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Translate</string>
+    <string name="text_insert">Nhập văn bản</string>
+    <string name="text_translate">Dịch</string>
+    <string name="text_eng">Mô tả tiếng Anh</string>
+    <string name="text_vn">Nghĩa tiếng Việt</string>
+
+</resources>

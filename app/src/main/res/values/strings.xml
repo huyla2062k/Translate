@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Translate</string>
+    <string name="text_insert">Enter the word</string>
+    <string name="text_translate">Translate</string>
+    <string name="text_eng">Description</string>
+    <string name="text_vn">Means</string>
+
+</resources>
